@@ -6,7 +6,7 @@ const Body = props => {
     <>
         <div class="container">
       <center>
-      <img src={img2} width="500" height="auto"></img>
+      <img src={img2} id="img2" width="500" height="auto"></img>
       <br></br>
       <br></br>
       <h3>

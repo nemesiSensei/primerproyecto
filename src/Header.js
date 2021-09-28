@@ -8,16 +8,15 @@ class Header extends React.Component
   {
     return (
       <header>        
-        
-        <nav class="navbar navbar-light bg-light">
-        <img src={img1} width="200" height="200"></img>
-        <div class="container">                            
-        <button class="btn btn-primary btn-lg" id="inicio"><strong>Inicio</strong></button>
-        <button class="btn btn-primary btn-lg" id="marca"><strong>MarkRoster</strong></button>
-        <button class="btn btn-primary btn-lg" id="specs"><strong>Características</strong></button>
-        <button class="btn btn-primary btn-lg" id="ventajas"><strong>Ventajas</strong></button>
-        <button class="btn btn-primary btn-lg" id="soporte"><strong>Soporte</strong></button>
-        <button class="btn btn-primary btn-lg" id="contacto"><strong>Contacto</strong></button>      
+        <nav class="navbar navbar-ligth bg-white">
+        <img src={img1} width="200" height="auto"></img>        
+        <div class="container">                         
+        <a class="btn btn-dark btn-lg" href="Formulario"><strong>Inicio de Sesión</strong></a>
+        <a class="btn btn-primary btn-lg" href="#img2"><strong>MarkRoster</strong></a>
+        <a class="btn btn-primary btn-lg" href="#caracteristicas"><strong>Características</strong></a>
+        <a class="btn btn-primary btn-lg" href="#ventajas"><strong>Ventajas</strong></a>
+        <a class="btn btn-success btn-lg" href="Lista"><strong>Productos</strong></a>
+        <a class="btn btn-warning btn-lg" style={{color:"black"}} ><strong>Contacto</strong></a>     
         </div>
         </nav>
         <br></br>
@@ -29,6 +28,5 @@ class Header extends React.Component
       </header>
     );
   }
-}
- 
+} 
 export default Header;

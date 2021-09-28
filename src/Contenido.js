@@ -9,7 +9,7 @@ const Contenido = props => {
     <>
     <div class="container">
       <center>
-      <h1 style={{color: '#309EFF', fontSize: 50}}><strong>Características de MarkRoster</strong></h1>
+      <h1 id="caracteristicas" style={{color: '#309EFF', fontSize: 50}}><strong>Características de MarkRoster</strong></h1>
       <br></br>
       <br></br>
       <br></br>  
@@ -56,7 +56,7 @@ const Contenido = props => {
       <br></br>
       <br></br>
       <br></br>
-      <h1 style={{color: '#309EFF', fontSize: 50}}><strong>Ventajas de MarkRoster</strong></h1>
+      <h1 id="ventajas" style={{color: '#309EFF', fontSize: 50}}><strong>Ventajas de MarkRoster</strong></h1>
       <br></br>
       <br></br>
       <br></br>
