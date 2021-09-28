@@ -52,9 +52,9 @@ const Products = [
      <blockquote class="blockquote">
        <p>Hecho por Juan Jiménez </p>
       <p></p>
-        <a href ="https://www.facebook.com/juandavid.jimenezfranco.52">  Facebook  <i class="fab fa-facebook"></i> </a><br></br>
-        <a href="https://github.com/nemesiSensei"> github <i class="fab fa-github"></i> </a><br></br>
-        <a href="https://www.linkedin.com/in/juan-david-jiménez-franco-276675206/"> Linkedin   <i class="fab fa-linkedin"></i> </a>
+        <a href ="https://www.facebook.com/juandavid.jimenezfranco.52" style={{color:"blue"}}>  Facebook     <i class="fab fa-facebook"></i> </a><br></br>
+        <a href="https://github.com/nemesiSensei" style={{color:"purple"}}> github    <i class="fab fa-github"></i> </a><br></br>
+        <a  href="https://www.linkedin.com/in/juan-david-jiménez-franco-276675206/"style={{color:"#396BFF"}}> Linkedin   <i class="fab fa-linkedin"></i> </a>
      </blockquote>
      <figcaption class="blockquote-footer">
         <cite title="Source Title">Adsi:2184573</cite>
