@@ -42,6 +42,10 @@ class  App extends Component {
   <Route path="/Formulario"  exact component >
     <Formulario/>   
   </Route>  
+  <Route path=""  >
+    <h1><strong>Error 404: Not Found</strong></h1>
+    <a class="btn btn-danger btn-lg" href="/"><strong>Volver a la pagina Principal</strong></a>    
+  </Route> 
   </Switch>
     </Router>
   )
