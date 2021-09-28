@@ -39,6 +39,5 @@ class Formulario  extends  Component{
 </div>
         )
     }
-
 }
 export default Formulario;
